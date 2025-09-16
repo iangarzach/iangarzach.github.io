@@ -4,7 +4,111 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>CV - Ian Fernando Garza Chavarria</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #1a1a1a;
+      --accent-color: #0066cc;
+      --section-padding: 30px;
+      --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-main);
+      line-height: 1.7;
+      padding: 40px 20px;
+    }
+
+    .cv-container {
+      max-width: 850px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 60px;
+      border-radius: 12px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+    }
+
+    header {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 25px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: var(--accent-color);
+      margin-bottom: 5px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #444;
+    }
+
+    section {
+      margin-bottom: var(--section-padding);
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      color: var(--accent-color);
+      margin-bottom: 15px;
+      border-left: 4px solid var(--accent-color);
+      padding-left: 12px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .project {
+      margin-bottom: 20px;
+    }
+
+    .project h3 {
+      font-size: 1.1rem;
+      color: #222;
+      margin-bottom: 5px;
+    }
+
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .cv-container {
+        padding: 30px 20px;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -34,7 +138,7 @@
       <ul>
         <li><strong>Lenguajes:</strong> HTML, CSS, JavaScript, Python, SQL</li>
         <li><strong>Herramientas:</strong> Visual Studio Code, Android Studio, SQLite, Git & GitHub, Power bi, Excel</li>
-        <li><strong>Extras:</strong> Ingles-intermedio</li>
+        <li><strong>Extras:</strong> Inglés - Intermedio</li>
       </ul>
     </section>
 
@@ -44,7 +148,7 @@
       <div class="project">
         <h3>Maps Virtual UTSC (Web)</h3>
         <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript, Google Maps API</p>
-        <p>  Plataforma web interactiva para orientar a estudiantes dentro del campus de la UTSC.
+        <p>Plataforma web interactiva para orientar a estudiantes dentro del campus de la UTSC.
           Implementé un sistema de marcadores personalizados, integración con Google Maps API y un diseño responsive adaptado a dispositivos móviles. Mejoró la accesibilidad para alumnos de nuevo ingreso.</p>
       </div>
 
@@ -58,7 +162,7 @@
       <div class="project">
         <h3>Gestor de Tareas Interactivo</h3>
         <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript</p>
-        <p> Aplicación web para la organización personal de tareas con sistema de prioridades, subtareas y guardado automático en el navegador. Incluye una interfaz intuitiva con soporte para arrastrar y soltar tareas.</p>
+        <p>Aplicación web para la organización personal de tareas con sistema de prioridades, subtareas y guardado automático en el navegador. Incluye una interfaz intuitiva con soporte para arrastrar y soltar tareas.</p>
         <p><strong>Rol:</strong> UI/UX Designer & Frontend Developer</p>
       </div>
     </section>
@@ -67,7 +171,7 @@
       <h2>Contacto</h2>
       <ul class="contact-list">
         <li><strong>Teléfono:</strong> 8126610864</li>
-        <li><strong>Email:</strong> <a href="mailto:guerrero21edgar@gmail.com">iangarzach@gmail.com</a></li>
+        <li><strong>Email:</strong> <a href="mailto:iangarzach@gmail.com">iangarzach@gmail.com</a></li>
         <li><strong>Ubicación:</strong> Santa Catarina, Nuevo León, México</li>
       </ul>
     </section>
@@ -76,3 +180,7 @@
 
 </body>
 </html>
+
+</body>
+</html>
+
